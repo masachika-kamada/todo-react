@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./styles.css";
-// import { InputTodo } from "./components/InputTodo";  // これはエラーになる
-import InputTodo from "./components/inputTodo";
-import IncompleteTodos from "./components/incompleteTodos";
-import CompleteTodos from "./components/completeTodos";
+import { InputTodo } from "./components/inputTodo";
+import { IncompleteTodos } from "./components/incompleteTodos";
+import { CompleteTodos } from "./components/completeTodos";
 
 export const App = () => {
   const [incompleteTodos, setIncompleteTodos] = useState([]);

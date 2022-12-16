@@ -1,6 +1,6 @@
 import React from "react";
 
-const CompleteTodos = (props) => {
+export const CompleteTodos = (props) => {
   const { todos, onClickBack } = props;
   return (
     <div className="complete-area">
@@ -19,4 +19,4 @@ const CompleteTodos = (props) => {
   );
 }
 
-export default CompleteTodos;
+// export default CompleteTodos;

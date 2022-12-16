@@ -1,6 +1,6 @@
 import React from "react";
 
-const IncompleteTodos = (props) => {
+export const IncompleteTodos = (props) => {
   const { todos, onClickComplete, onClickDelete } = props;
   return (
     <div className="incomplete-area">
@@ -20,4 +20,4 @@ const IncompleteTodos = (props) => {
   );
 }
 
-export default IncompleteTodos;
+// export default IncompleteTodos;

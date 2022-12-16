@@ -9,7 +9,7 @@ const style = {
   borderRadius: "8px"
 };
 
-const InputTodo = (props) => {
+export const InputTodo = (props) => {
   const { todoText, onChange, onClick ,disabled } = props;
   return (
     <div style={style}>
@@ -24,4 +24,4 @@ const InputTodo = (props) => {
   );
 }
 
-export default InputTodo;
+// export default InputTodo;
